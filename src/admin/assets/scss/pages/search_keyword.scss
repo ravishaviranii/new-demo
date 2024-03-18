@@ -1,0 +1,25 @@
+
+.search_keyword_container{
+    margin: 10px !important;
+    display: flex;
+    justify-content: center;
+    .search_keyword {
+        width: 45%;
+        margin-right: 10px;
+        input[type="text"] {
+            width: 100%;
+            border: 1px solid lightgray;
+            padding: 7px;
+            border-radius: 4px;
+            outline: none;
+        }
+    
+        
+    }
+    
+    button.search_btn {
+        background: #3B84DF;
+        color: white;
+        padding: 8px 25px 8px 25px;
+    }
+}

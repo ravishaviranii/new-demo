@@ -1,0 +1,80 @@
+.login_section {
+    display: flex;
+    height: 100vh;
+
+    .section_1 {
+        width: 50%;
+        background: darkslateblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .section_1_content {
+            text-align: center;
+            color: white;
+
+            h3 {
+                color: white;
+                font-weight: initial;
+                font-size: 38px;
+            }
+
+            img.logo_section {
+                width: 280px;
+            }
+
+            p {
+                font-style: oblique;
+                font-family: cursive;
+                width: 80%;
+                margin: auto;
+                padding-top: 70px;
+                font-size: 25px;
+                font-weight: 400;
+            }
+
+            h6 {
+                text-align: end;
+                padding-right: 85px;
+                padding-top: 30px;
+                font-weight: 100;
+            }
+        }
+    }
+
+    .section_2 {
+        width: 50%;
+        display: flex;
+        padding-left: 80px;
+        align-items: center;
+
+        .user-box {
+            padding-top: 31px;
+
+            input.user-box-input {
+                width: 100%;
+                padding: 9px;
+                border: 1px solid lightgray;
+                border-radius: 5px;
+                outline: none;
+            }
+
+            label.user-box-label {
+                font-weight: 600;
+            }
+        }
+
+        .remember {
+            padding: 20px 0 35px 0;
+        }
+
+        button.login-box-button {
+            background: darkslateblue;
+            color: white;
+            width: 150px;
+            padding: 9px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    }
+}

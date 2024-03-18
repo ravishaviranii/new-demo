@@ -1,0 +1,45 @@
+:root {
+    // sidebar //
+    --sidebar-bg-color: linear-gradient(180deg, #02468B 4.83%, #02468B 71.46%),
+    linear-gradient(0deg, #D4D4D4, #D4D4D4);;
+    --sidebar-text-color:white;
+    --sidebar-icon-color:white;
+    --sidebar-icon-color:white;
+
+    // title //
+    --title-bg-color:white;
+    --title-text-color:#18181B;
+
+    --body-bg-color:#fff;
+
+    // table //
+    --table-pagination-bg-color:white;
+    --table-title-color:#18181B;
+    --table-bg-color:#FFF;
+    --table-header-bg:#F6F7FB;
+    --table-header-text:#71717A;
+    --table-text-color:#18181B;
+
+
+    // button //
+    --save-bg-color:#3B84DF;
+    --save-text-color:white;
+    --cancel-bg-color:#FFFFFF;
+    --cancel-btn-text-color: #71717A;
+    --cancel-btn-border-color: #CECECE;
+    --button-text-color: #FFF;
+    --button-bg-color: #3B84DF; 
+    --add-bg-color:#3B84DF;
+    --add-text-color:white;
+
+
+    // chart //
+    --chart-bg-color:white;
+
+    //switch//
+    --switch-bg-on-color:#02468B;
+    --switch-bg-off-color:#71717A;
+
+    // body //
+    --body-bg-color:white;
+}

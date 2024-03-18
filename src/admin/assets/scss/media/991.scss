@@ -1,0 +1,69 @@
+@media only screen and (max-width: 991px) {
+
+    //dashbord price //
+    .price_section {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .box.box_second {
+        margin-right: 0;
+    }
+
+    .box.box_first,
+    .box.box_second {
+        margin-bottom: 13px;
+    }
+
+    .price_section .box .inner_box .content span {
+    font-size: 14px;
+    }
+    .price_section .box .inner_box i {
+        font-size: 16px;
+    }
+
+    // filter //
+    .filter_section {
+        grid-template-columns: 1fr 1fr !important;
+    }
+    .filter_section .inner_filter:nth-child(2){
+        margin-right: 0;
+        margin-bottom: 13px;
+    }
+    .filter_section .inner_filter:nth-child(1){
+        margin-right: 0;
+    }
+
+    .link_setting_container {
+        grid-template-columns: 1fr;
+       
+    }
+
+    .theme .theme_section {
+     
+        grid-template-columns: 1fr;
+       
+    }
+
+    .camapgin_btn {
+        display: block !important;
+    }
+     .filTypeBox {
+        display: block !important;
+    }
+    .campaign_first{
+        padding-right: 0;
+    }
+
+    .rs-picker-toggle-wrapper {
+   
+        width: 100% !important;
+      
+    }
+
+    .setting-box{
+        width: 70% ;
+    }
+    .search_option {
+        margin-right: 0 !important;
+    }
+}

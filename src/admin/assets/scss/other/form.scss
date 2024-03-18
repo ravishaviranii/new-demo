@@ -1,0 +1,85 @@
+.form_group {
+    display: grid;
+    padding-bottom: 9px;
+
+    label {
+        color: #18181B;
+        font-size: 15px;
+        text-transform: capitalize;
+        font-weight: 500;
+        line-height: 24px;
+        padding-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="time"] {
+        border-radius: 5px;
+        border: 1px solid #CECECE;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        outline: none;
+        color: #71717A;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        width: 100%;
+    }
+
+    select {
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #CECECE;
+        color: #71717A;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.form_btn {
+    display: flex;
+    justify-content: center;
+
+    .cancel_btn {
+        margin-right: 18px;
+    }
+
+
+}
+
+.chip {
+    margin-top: 10px;
+
+    input[type="text"] {
+        padding: 7px !important;
+    }
+}
+
+.disabledchip {
+    background: #fafafa;
+    margin-top: 10px;
+    pointer-events: none !important;
+    input[type="text"] {
+        background: #fafafa;
+        padding: 7px !important;
+        pointer-events: none !important;
+    }
+}
+
+.disabled_input{
+    select ,input[type="text"]{
+        background: #fafafa;
+        cursor: not-allowed;
+    }
+}
+
+.form_dropdown__value-container {
+    padding: 6px !important;
+}

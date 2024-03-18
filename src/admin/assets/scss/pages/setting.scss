@@ -1,0 +1,119 @@
+.router_container{
+ 
+.link_setting_container {
+    width: 70%;
+    margin: auto;
+
+ h5{
+    margin-bottom: 0.5rem !important;
+    border-bottom: 1px solid slategray;
+    padding-bottom: 5px;
+ }
+  
+    .setting_container {
+      border-radius: 8px;
+      border: 1px solid #E4E4E7;
+      background: var(--table-bg-color);
+      box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.25);
+      padding: 17px;
+  
+  
+      .user_box {
+        display: grid;
+        margin-bottom: 20px;
+  
+        input.user-box-input {
+          border-bottom: 1px solid #CECECE !important;
+          border: none;
+          outline: none;
+          font-weight: 500;
+          line-height: 21px;
+          color: #71717A;
+          font-size: 14px;
+        }
+  
+        label.user-box-label {
+          color: #18181B;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px;
+        }
+      }
+  
+      .linked_account {
+        display: flex;
+        align-items: center;
+        // justify-content: center;
+        button {
+          font-size: 13px;
+          font-weight: 200;
+          line-height: 24px;
+          padding: 7px 15px;
+          margin-right: 10px;
+        }
+  
+        p {
+          text-decoration: underline;
+          color: blue;
+          font-size: 13px;
+          cursor: pointer;
+        }
+      }
+    }
+  
+  
+    .setting_profile_list {
+      .inner_list {
+        height: 199px;
+        overflow: overlay;
+    }
+      h5 {
+        font-size: 17px;
+        padding-bottom: 15px;
+        font-weight: 500;
+      }
+      .list_data {
+        padding-bottom: 10px;
+      
+  
+        label {
+          color: gray;
+          font-size: 15px;
+  
+        }
+      }
+  
+    }
+    .account_part {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+    }
+    .other_link{
+        
+        span {
+            margin-right: 14px;
+            font-weight: 700;
+            padding-bottom: 5px;
+            border-bottom: 1px solid;
+        }
+    }
+    .tab-content {
+        margin-top: 25px;
+    }
+    .nav-tabs .nav-link.active {
+        color: white;
+        background-color: #02468B;
+        border-color: #02468B;
+    }
+    .nav-link {
+     
+        color: #02468B;
+    
+    }
+  }
+  .nav-tabs {
+    margin-top: 24px;
+}
+}

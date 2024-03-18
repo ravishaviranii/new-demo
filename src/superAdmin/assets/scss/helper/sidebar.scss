@@ -1,0 +1,57 @@
+.sidebar_flex {
+    ul.submenu {
+
+
+        li {
+            padding-left: 44px;
+        }
+
+        li.subActive {
+            background: #3b84df;
+            margin-right: 24px;
+            padding-bottom: 0 !important;
+            margin-bottom: 15px;
+        }
+
+
+
+    }
+
+    ul.submenu {
+        padding: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+
+    ul.submenu.show {
+        max-height: 200px;
+        display: block;
+        transition: max-height 0.5s linear;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding-top: 7px;
+
+
+        li.active {
+            background: #3b84df;
+            margin-right: 24px;
+            padding-bottom: 0 !important;
+            padding-top: 0;
+
+        }
+    }
+
+    .profile_name_sec {
+        position: relative;
+
+        .noti_icon {
+            position: absolute;
+            right: 27px;
+        }
+    }
+}
+
+.sidebar_flex ul.submenu.show li.active {
+  
+    margin-bottom: 8px;
+}

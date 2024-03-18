@@ -1,0 +1,134 @@
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-bottom: 0;
+}
+
+a {
+  transition: background 0.2s, color 0.2s;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.MuiOutlinedInput-root {
+  padding: 0 !important;
+}
+
+.MuiInputBase-root {
+  margin-top: 10px !important;
+}
+
+.MuiOutlinedInput-root .MuiAutocomplete-input {
+  padding: 11px !important;
+  outline: none !important;
+  color: #71717a !important;
+  font-size: 12px;
+  font-weight: 500 !important;
+  line-height: 21px !important;
+}
+
+.rs-picker-menu {
+  z-index: 9999 !important;
+}
+
+.custom_data {
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    background: royalblue;
+    color: white;
+    margin-bottom: 8px;
+    padding: 4px 14px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.rs-panel {
+  overflow: initial !important;
+}
+
+.form_dropdown__indicator {
+  z-index: 9999 !important;
+}
+
+.rs-picker-toggle {
+
+  z-index: 0 !important;
+}
+
+//other library //
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+@import "react-step-progress/dist/index.css";
+@import "react-multi-carousel/lib/styles.css";
+
+//varibale //
+@import "./admin/assets/scss/variable/variable.scss";
+
+// component //
+@import "./common/scss/sidebar.scss";
+@import "./admin/assets/scss/component/passwordModal.scss";
+@import "./admin/assets/scss/component/table.scss";
+@import "./admin/assets/scss/component/campaignModal.scss";
+
+@import "./superAdmin/assets/scss/helper/header.scss";
+@import "./superAdmin/assets/scss/helper/sidebar.scss";
+
+//----------------- pages-------------------- //
+
+@import "./admin/assets/scss/pages/dashboard.scss";
+@import "./admin/assets/scss/pages/setting.scss";
+@import "./admin/assets/scss/pages/campaign.scss";
+
+@import "./admin/assets/scss/pages/theme-setting.scss";
+@import "./admin/assets/scss/pages/adGroups.scss";
+@import "./admin/assets/scss/pages/budget.scss";
+@import "./admin/assets/scss/pages/campaignSchedule.scss";
+@import "./admin/assets/scss/pages/setting.scss";
+@import "./admin/assets/scss/pages/search_keyword.scss";
+@import "./admin/assets/scss/pages/order.scss";
+@import "./admin/assets/scss/pages/keywordResearch.scss";
+@import "./admin/assets/scss/pages/supprSystem.scss";
+
+@import "./common/scss/pages/login.scss";
+
+@import "./superAdmin/assets/scss/component/package.scss";
+@import "./superAdmin/assets/scss/component/utility.scss";
+@import "./superAdmin/assets/scss/component/vendor.scss";
+@import "./superAdmin/assets/scss/component/vendorHistory.scss";
+@import "./superAdmin/assets/scss/component/dashboard.scss";
+@import "./superAdmin/assets/scss/component/settings.scss";
+@import "./superAdmin/assets/scss/component/support-system.scss";
+@import "./superAdmin/assets/scss/component/notification.scss";
+
+//-----------------media---------------- //
+@import "./admin/assets/scss/media/sidebarResponsive.scss";
+@import "./admin/assets/scss/media/991.scss";
+@import "./admin/assets/scss/media/768.scss";
+@import "./admin/assets/scss/media/520.scss";
+
+@import "./common/scss/media/991.scss";
+@import "./common/scss/media/721.scss";
+@import "./common/scss/media/391.scss";
+
+//other//
+@import "./admin/assets/scss/other/common.scss";
+@import "./admin/assets/scss/other/filter.scss";
+@import "./admin/assets/scss/other/title.scss";
+@import "./admin/assets/scss/other/chart.scss";
+@import "./admin/assets/scss/other/modal.scss";
+@import "./admin/assets/scss/other/form.scss";
+@import "./admin/assets/scss/other/footer.scss";
